@@ -42,7 +42,7 @@ function draw() {
   console.log("mouseX: " + mouseX + "\n" + "mouseY: " + mouseY);
 
   // Can I check when they meet?
-  if(mouseX >= 514 && mouseX <= 564 && mouseY >= 293 && mouseY <= 343){
+  if(mouseX >= (mid_x - 25)) && mouseX <= (mid_x + 25) && mouseY >= (mid_y - 25) && mouseY <= (mid_y + 25)){
       // console.log("inside");
 
       playSynth();
