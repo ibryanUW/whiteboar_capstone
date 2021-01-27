@@ -61,5 +61,5 @@ function draw() {
 
   // Attempting circle that grows
   circle(movedX, 100, 50);
-  
+
 }
