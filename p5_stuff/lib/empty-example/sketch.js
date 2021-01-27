@@ -1,3 +1,6 @@
+
+
+
 function setup() {
   // setup code
   createCanvas(displayWidth, displayHeight);
@@ -55,4 +58,8 @@ function draw() {
       // console.log("inside");
       playSynth();
   }
+
+  // Attempting circle that grows
+  circle(movedX, 100, 50);
+  
 }
