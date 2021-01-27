@@ -40,7 +40,7 @@ function draw() {
   circle(mid_x, mid_y, 50);
 
   // Circle at (50, 50) that does the same thing as the one in the middle.
-  circle_left(50, 50, 50);
+  circle(50, 50, 50);
   if(mouseX >= 25 && mouseX <= 75 && mouseY >= 25 && mouseY <= 75) {
       // console.log("inside");
       playSynth();
@@ -51,7 +51,7 @@ function draw() {
 
   // I know coordinates of the mouse
   //print(displayWidth + ", " + displayHeight);
-  //console.log("mouseX: " + mouseX + "\n" + "mouseY: " + mouseY);
+  console.log("mouseX: " + mouseX + "\n" + "mouseY: " + mouseY);
 
   // Can I check when they meet?
   if(mouseX >= (mid_x - 25) && mouseX <= (mid_x + 25) && mouseY >= (mid_y - 25) && mouseY <= (mid_y + 25)) {
