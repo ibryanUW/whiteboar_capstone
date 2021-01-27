@@ -1,10 +1,16 @@
-
+/*
+* # INFORMATION ABOUT THIS DOCUMENT
+* see README.text
+*
+*
+*
+*/
 
 
 function setup() {
   // setup code
   createCanvas(displayWidth, displayHeight);
-
+  let d = 0;
   // Creating a new polySynth object
   polySynth = new p5.PolySynth();
 
@@ -59,7 +65,8 @@ function draw() {
       playSynth();
   }
 
+  d += 0.1;
   // Attempting circle that grows
-  circle(movedX, 100, 50);
+  circle(100, 100, d);
 
 }
