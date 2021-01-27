@@ -37,7 +37,7 @@ function draw() {
   circle(mid_x, mid_y, 50);
 
   // Circle at (50, 50) that does the same thing as the one in the middle.
-  circle_left(50, 50, 50);
+  circle(50, 50, 50);
   if(mouseX >= 25 && mouseX <= 75 && mouseY >= 75 && mouseY <= 25) {
       // console.log("inside");
       playSynth();
