@@ -6,17 +6,22 @@
 *
 */
 
+/*  GLOBALS  */
+
+
+/*  CONSTANTS */
+
+
 
 function setup() {
   // setup code
   createCanvas(displayWidth, displayHeight);
-  let d = 0;
   // Creating a new polySynth object
   polySynth = new p5.PolySynth();
-
 }
 
-
+// Contains data about a tone.
+// Is triggered by other custom functions.
 function playSynth() {
 // What's this thing do?
   userStartAudio();
@@ -35,38 +40,23 @@ function playSynth() {
 }
 
 
+function makeCircleArray() {
+  console.log("inside makeCircleArray");
+
+  let circle_Array = [];
+
+  for (let i=0; i<=7; i++){
+    circle_Array[i] = circle(50*i, 50*i, 10);
+  }
+  console.log(circle_Array);
+}
+
 
 function draw() {
   // put drawing code here
   background(100);
+  console.log("inside draw");
 
-  // Circle in the middle
-  var mid_x = displayWidth/2;
-  var mid_y = displayHeight/2;
-  circle(mid_x, mid_y, 50);
-
-  // Circle at (50, 50) that does the same thing as the one in the middle.
-  circle(50, 50, 50);
-  if(mouseX >= 25 && mouseX <= 75 && mouseY >= 25 && mouseY <= 75) {
-      // console.log("inside");
-      playSynth();
-  }
-
-  // I know the coordinates of the circle
-  //print("right_arc_center: " + (mid_x + 25) + " || top_arc_center: " + (mid_y + 25));
-
-  // I know coordinates of the mouse
-  //print(displayWidth + ", " + displayHeight);
-  console.log("mouseX: " + mouseX + "\n" + "mouseY: " + mouseY);
-
-  // Can I check when they meet?
-  if(mouseX >= (mid_x - 25) && mouseX <= (mid_x + 25) && mouseY >= (mid_y - 25) && mouseY <= (mid_y + 25)) {
-      // console.log("inside");
-      playSynth();
-  }
-
-  d += 0.1;
-  // Attempting circle that grows
-  circle(100, 100, d);
-
+  makeCircleArray();
+  noLoop();
 }
