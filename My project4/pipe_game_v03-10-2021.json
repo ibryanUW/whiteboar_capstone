@@ -260,6 +260,7 @@
         },
         {
           "angle": 0,
+<<<<<<< HEAD
           "customSize": true,
           "height": 144,
           "layer": "",
@@ -270,11 +271,24 @@
           "x": -54,
           "y": 396,
           "zOrder": 4,
+=======
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Bush4",
+          "persistentUuid": "5ce527ee-ccca-4fe7-a05c-0f202805d2a7",
+          "width": 0,
+          "x": 260,
+          "y": 522,
+          "zOrder": 3,
+>>>>>>> gdevelop_branch_03102021
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
+<<<<<<< HEAD
           "angle": 37.469,
           "customSize": true,
           "height": 100,
@@ -286,11 +300,25 @@
           "x": 712,
           "y": 404,
           "zOrder": 5,
+=======
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Bush4",
+          "persistentUuid": "2149a7bc-e039-4370-9cc9-920fbfc94be6",
+          "width": 0,
+          "x": -100,
+          "y": 380,
+          "zOrder": 3,
+>>>>>>> gdevelop_branch_03102021
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
+<<<<<<< HEAD
           "angle": 0,
           "customSize": true,
           "height": 101,
@@ -302,6 +330,19 @@
           "x": 333,
           "y": 537,
           "zOrder": 6,
+=======
+          "angle": -90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Bush4",
+          "persistentUuid": "7c628f52-c75d-46ea-b4ff-206c47263046",
+          "width": 0,
+          "x": 624,
+          "y": 376,
+          "zOrder": 3,
+>>>>>>> gdevelop_branch_03102021
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -348,7 +389,11 @@
           ]
         },
         {
+<<<<<<< HEAD
           "name": "Bush1",
+=======
+          "name": "Bush4",
+>>>>>>> gdevelop_branch_03102021
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -387,7 +432,11 @@
           ]
         },
         {
+<<<<<<< HEAD
           "name": "GreenCrystal",
+=======
+          "name": "RButton",
+>>>>>>> gdevelop_branch_03102021
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -404,7 +453,11 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+<<<<<<< HEAD
                       "image": "Green Crystal.png",
+=======
+                      "image": "R button.png",
+>>>>>>> gdevelop_branch_03102021
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -426,6 +479,7 @@
           ]
         },
         {
+<<<<<<< HEAD
           "name": "BlueJewel",
           "tags": "",
           "type": "Sprite",
@@ -440,6 +494,13 @@
               "value": "this.Y()"
             }
           ],
+=======
+          "name": "MediumBrownMeteor1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+>>>>>>> gdevelop_branch_03102021
           "behaviors": [],
           "animations": [
             {
@@ -452,7 +513,11 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+<<<<<<< HEAD
                       "image": "Blue Jewel.png",
+=======
+                      "image": "Medium Brown Meteor (1).png",
+>>>>>>> gdevelop_branch_03102021
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -474,7 +539,11 @@
           ]
         },
         {
+<<<<<<< HEAD
           "name": "RedPuzzle",
+=======
+          "name": "GreenCrystal",
+>>>>>>> gdevelop_branch_03102021
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -491,7 +560,11 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+<<<<<<< HEAD
                       "image": "Red Puzzle.png",
+=======
+                      "image": "Green Crystal.png",
+>>>>>>> gdevelop_branch_03102021
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -513,6 +586,7 @@
           ]
         },
         {
+<<<<<<< HEAD
           "additive": false,
           "alphaParam": "Mutable",
           "angleParam": "Mutable",
@@ -571,6 +645,9 @@
         },
         {
           "name": "RedPuzzle2",
+=======
+          "name": "BlueJewel",
+>>>>>>> gdevelop_branch_03102021
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -587,7 +664,11 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+<<<<<<< HEAD
                       "image": "Red Puzzle.png",
+=======
+                      "image": "Blue Jewel.png",
+>>>>>>> gdevelop_branch_03102021
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -609,7 +690,11 @@
           ]
         },
         {
+<<<<<<< HEAD
           "name": "BlueJewel2",
+=======
+          "name": "RedPuzzle",
+>>>>>>> gdevelop_branch_03102021
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -626,7 +711,11 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+<<<<<<< HEAD
                       "image": "Blue Jewel.png",
+=======
+                      "image": "Red Puzzle.png",
+>>>>>>> gdevelop_branch_03102021
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -648,6 +737,7 @@
           ]
         },
         {
+<<<<<<< HEAD
           "name": "GreenCrystal2",
           "tags": "",
           "type": "Sprite",
@@ -685,6 +775,63 @@
               ]
             }
           ]
+=======
+          "additive": false,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 90,
+          "emitterForceMax": 85,
+          "emitterForceMin": 45,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 45,
+          "friction": 2,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 300,
+          "name": "particle_effect_test_1",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGravityZ": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "behaviors": []
+>>>>>>> gdevelop_branch_03102021
         }
       ],
       "events": [
@@ -854,6 +1001,7 @@
                     "1"
                   ],
                   "subInstructions": []
+<<<<<<< HEAD
                 },
                 {
                   "type": {
@@ -903,6 +1051,8 @@
                     "particle_effect_test_1"
                   ],
                   "subInstructions": []
+=======
+>>>>>>> gdevelop_branch_03102021
                 }
               ],
               "events": []
@@ -1033,6 +1183,7 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
+<<<<<<< HEAD
           "conditions": [
             {
               "type": {
@@ -1132,6 +1283,10 @@
               "subInstructions": []
             }
           ],
+=======
+          "conditions": [],
+          "actions": [],
+>>>>>>> gdevelop_branch_03102021
           "events": []
         }
       ],
