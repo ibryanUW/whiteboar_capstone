@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="4" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <editorsettings>
+  <export target="../dialogue/continue_btn.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="open_tileset" tilewidth="16" tileheight="16" tilecount="6840" columns="90">
+  <image source="../openpixels-master_0/openpixels-master/open_tileset.png" trans="000000" width="1440" height="1216"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="4" height="2">
+  <data encoding="csv">
+6163,6164,6165,6166,
+6253,6254,6255,6256
+</data>
+ </layer>
+</map>

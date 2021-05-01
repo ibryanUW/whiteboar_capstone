@@ -617,6 +617,166 @@
         "metadata": "",
         "name": "assets\\tilemaps\\diecrosoft3.json",
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/big-diecrosoft_text_only.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\big-diecrosoft_text_only.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/big-diecrosoft_text_only_iso.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\big-diecrosoft_text_only_iso.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/bg_diecrosoft.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\bg_diecrosoft.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/fuckingworkjesuschrist.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\fuckingworkjesuschrist.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/bg_dsoft.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\bg_dsoft.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/bg_dsoft_2.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\bg_dsoft_2.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/bg_dsoft_3.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\bg_dsoft_3.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/openpixels-master_0/openpixels-master/open_tileset_2x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\openpixels-master_0\\openpixels-master\\open_tileset_2x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/tilemaps/dsoft_logotext.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\tilemaps\\dsoft_logotext.json",
+        "userAdded": true
+      },
+      {
+        "file": "fonts/pixel-intv-font/PixelIntv-OPxd.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\pixel-intv-font\\PixelIntv-OPxd.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_text_bg-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_text_bg-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_text_bg-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_text_bg-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "info_text_bg-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "info_text_bg-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/zips/pixelated-speech-bubble-set/73415-OF1FB7-599.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\zips\\pixelated-speech-bubble-set\\73415-OF1FB7-599.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/pixelated-speech-bubble-set/73415-OF1FB7-599.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\pixelated-speech-bubble-set\\73415-OF1FB7-599.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogue/intro_dialogue_bg_box.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\dialogue\\intro_dialogue_bg_box.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/continue_btn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\continue_btn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/continue_btn-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\continue_btn-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/continue_btn-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\continue_btn-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -648,29 +808,13 @@
         "gridR": 158,
         "gridType": "rectangular",
         "gridWidth": 32,
-        "snap": true,
+        "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.19000000000000047
+        "zoomFactor": 0.20999999999999996
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 590,
-          "layer": "",
-          "locked": false,
-          "name": "quad_1",
-          "persistentUuid": "27baee6f-82fe-4ec4-9964-09de87698de4",
-          "width": 618,
-          "x": 1,
-          "y": 488,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -682,7 +826,7 @@
           "width": 0,
           "x": 248,
           "y": 148,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -699,6 +843,38 @@
           "x": 107,
           "y": 77,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1451,
+          "layer": "",
+          "locked": false,
+          "name": "bg_dsoft",
+          "persistentUuid": "17d944bf-2d45-4de8-88e5-967961ab3df1",
+          "width": 5000,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 592,
+          "layer": "",
+          "locked": false,
+          "name": "dsoft_logo_text",
+          "persistentUuid": "cea33f57-1788-4fda-8ba8-0c1709652ed0",
+          "width": 4975,
+          "x": 0,
+          "y": 64,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1598,19 +1774,36 @@
           ]
         },
         {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "intro_text",
-          "rightMargin": 0,
+          "name": "bg_dsoft",
           "tags": "",
-          "texture": "info_popup-1.png",
-          "tiled": true,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
+          "type": "TileMap::TileMap",
           "variables": [],
-          "behaviors": []
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "assets\\tilemaps\\bg_dsoft_3.json",
+            "tilesetJsonFile": "",
+            "tilemapAtlasImage": "assets\\openpixels-master_0\\openpixels-master\\open_tileset.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "name": "dsoft_logo_text",
+          "tags": "",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "assets\\tilemaps\\dsoft_logotext.json",
+            "tilesetJsonFile": "",
+            "tilemapAtlasImage": "assets\\openpixels-master_0\\openpixels-master\\open_tileset_2x.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
         }
       ],
       "events": [
@@ -1661,7 +1854,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "10",
                 "",
                 ""
               ],
@@ -2163,6 +2356,14 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -2191,6 +2392,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "BBText_AutoTyping",
+          "type": "AutoTyping::BBText_AutoTyping"
+        },
+        {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet"
         },
@@ -2203,10 +2408,1607 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "help_95text_95intro",
+      "name": "help_text_intro",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1.2400000000000007
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 291,
+          "layer": "",
+          "locked": false,
+          "name": "IntroHelpDesk",
+          "persistentUuid": "8702718a-4d24-4179-a868-3bdfcaf9fbc9",
+          "width": 612,
+          "x": 1960,
+          "y": 2120,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 438,
+          "layer": "",
+          "locked": false,
+          "name": "info_text_bg",
+          "persistentUuid": "33999daa-de31-42a8-9268-d077a28a63f8",
+          "width": 762,
+          "x": 1893,
+          "y": 2086,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "",
+          "locked": false,
+          "name": "continue_btn",
+          "persistentUuid": "89331c08-b3e5-4268-bf69-89d3e1cb999d",
+          "width": 115,
+          "x": 2212,
+          "y": 2423,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "IntroHelpDesk",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "BBText_AutoTyping",
+              "type": "AutoTyping::BBText_AutoTyping",
+              "Interval": 0.05
+            }
+          ],
+          "content": {
+            "text": "[b]Career Fair[/b]\n[i]In order to survive through to The Recruiter you must market yourself to job reps from various companies. Good luck and remember, the goal is to get hired after convincing The Recruiter you're the right person for the job.[/i]\n\nTo move press [outline=#f1fc00][b]W[/b][/outline], [outline=#f1fc00][b]A[/b][/outline], [outline=#f1fc00][b]S[/b][/outline], [outline=#f1fc00][b]D[/b][/outline]\n\nTo market yourself, toss your resume towards the job rep using the [outline=#f1fc00][b]Left Mouse Button[/b][/outline].",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "#000000",
+            "fontFamily": "fonts\\pixel-intv-font\\PixelIntv-OPxd.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "name": "info_text_bg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "info_text_bg",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"info_text_bg\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"bg\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAhElEQVR4Xu3XAREAIAwDMaYUn3hCAwj5IKHHmuvcs98KvxGAH+AEdEC4A5cSpAAFKEABCoQTwCAGMYhBDIYRMIYwiEEMYhCDGAwngEEMYhCDGAwjYA1iEIMYxCAGMRhOAIMYxCAGMRhGwBrEIAYxiEEMYjCcAAYxiEEMYjCMgDWIwTqDHyRnwYG09MABAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"border\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAw0lEQVR4Xu3bQQ6AIBAEQfj/ozVelAUS70P5AweY7ZbYW2tXO/jpArADHIG5A55jkfyU9911gACSl38ufTtgMwYdAUcgOwFTYFxfJagEVxcwBbI7sLqPDtABOmD5HqAElWB2AlAYCg8J4AAcgANwgHuBaewjwWwOosNIEAkiwS8BKAyFoTAUhsJQuCbABbhAdgJcgAtwAS7wJkCGyBAZIkNkiAyRoZIAG8x2ITdDbJAN/thgeAWsI8/P00ct+Yb6jt4BNzCKeAHmd7x2AAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\HumanOutput\\\\other_files\\\\git_repos\\\\whiteboar_capstone\\\\the_recruiter_1\\\\info_text_bg-1-1.png\"],\"name\":\"info_text_bg\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "info_text_bg-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "continue_btn",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "continue_btn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"continue_btn\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"btn_bg\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAABG0lEQVRoQ+2Z0Q2DMAxEyyhdg526g3foTl2jo7QiIihAbF9SicaW+cURumfHXJzp1vgQ0adxyaXhRDS1fBAKHl00JxiBIQKwKvwIRALBAvAiPsPgIFQBeBMvQTgB8Cqeg7ADgIp/zO+WRntZ7PN1h75VbocNACJ+VOFH1QiIDAECYEV4C4gdACn7VsVnGFI1LBBSBQQAxt5az75WBakCPGdfA7C8ZwF4yb4GIQBwWyAqYFC3B1m9ShD3O4wtEFtAGHF56QOSGxSdoHcAYYXjLLAehrweiLSTYLLCxahInfdb6QldAxGtCkpvMSoIRPiqc0t8DEVr1hKZD/Za0n+uq90NxMWIlBEvldB1NVaCsQri58tRi/0BEV3q+gKpnLAZTu4YuAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAABLElEQVRoQ+2W6w7CMAiFx/s/dE1NSJDQcim62eIfjWK383FgB67DX3C4/qsAlAMOJ1AjcLgBagneNgKttQYA0N+7C/tnyY1Y9y2npgFAIVQMFckFzn6jYv8KwEgkCqLdloBZHaC5xuOWFAeMboh3mXZTE0EBoSA6MvQ7j2BemwKgHypZ1QJgNv/SuRziaHdYoaQCoBfFbvF3FBxdgo8FYCW+WsdH4zEOWBV21//TRuAuAavXLQBRgvw5Ls3mLBzRDS+dRZcn1vIlG733j3Oih/DHnrSdpbTneVyO0qKWITyawiMQAaB1epQbpFCk5QcrhJ8C4MFmJljKEVZRnrolAFpE1UbA0nEp/mbF4LeLPLR2rC0AO3bVo6kc4KG1Y205YMeuejSVAzy0dqx9AbgrfDAIEWy4AAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\HumanOutput\\\\other_files\\\\git_repos\\\\whiteboar_capstone\\\\the_recruiter_1\\\\assets\\\\dialogue\\\\continue_btn-1-0.png\"],\"name\":\"continue_btn\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\dialogue\\continue_btn-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 1.5
+                          },
+                          {
+                            "x": 63,
+                            "y": 0.5
+                          },
+                          {
+                            "x": 62,
+                            "y": 29.5
+                          },
+                          {
+                            "x": 3,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(\"\",0), IntroHelpDesk.X(), 0.07)",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(\"\",0), IntroHelpDesk.Y(), 0.07)",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "4",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "continue_btn",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"career_fair_intro\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 8294800,
+          "ambientLightColorG": 8285624,
+          "ambientLightColorR": 8825064,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "BBText_AutoTyping",
+          "type": "AutoTyping::BBText_AutoTyping"
+        }
+      ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "westboy, daliyoucefmedakram@gmail.com",
+      "description": "Animate the text to simulate it being written character by character (also called \"typewriter\" effect), with a customizable time between each character. Useful for dialogue scenes or visual novels.\n\nAdd the behavior to a Text object (or BBText object) and choose the interval between characters.\n\n* When the text changes, the automatic typing starts again from the beginning with the new text.\n* You can change the speed of the text typing by changing the interval with events.\n* Use a condition to check if the typing finished.\n* You can also pause the typing and resume it after.",
+      "extensionNamespace": "",
+      "fullName": "Auto typing animation for texts (\"typewriter\" effect)",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXR5cGV3cml0ZXIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjAgMTNIMTZDMTYgMTQuMSAxNS4xIDE1IDE0IDE1SDEwQzguOSAxNSA4IDE0LjEgOCAxM0g0TDIgMThWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwQzIxLjEgMjIgMjIgMjEuMSAyMiAyMFYxOE02IDIwQzUuMTEgMjAgNC42NiAxOC45MiA1LjI5IDE4LjI5QzUuOTIgMTcuNjYgNyAxOC4xMSA3IDE5QzcgMTkuNTUgNi41NSAyMCA2IDIwTTEwIDIwQzkuMTEgMjAgOC42NiAxOC45MiA5LjI5IDE4LjI5QzkuOTIgMTcuNjYgMTEgMTguMTEgMTEgMTlDMTEgMTkuNTUgMTAuNTUgMjAgMTAgMjBNMTQgMjBDMTMuMTEgMjAgMTIuNjYgMTguOTIgMTMuMjkgMTguMjlDMTMuOTIgMTcuNjYgMTUgMTguMTEgMTUgMTlDMTUgMTkuNTUgMTQuNTUgMjAgMTQgMjBNMTggMjBDMTcuMTEgMjAgMTYuNjYgMTguOTIgMTcuMjkgMTguMjlDMTcuOTIgMTcuNjYgMTkgMTguMTEgMTkgMTlDMTkgMTkuNTUgMTguNTUgMjAgMTggMjBNMTggMTBWM0g2VjEwSDNWMTJIMjFWMTBNOCA1SDE2VjZIOE04IDdIMTRWOEg4IiAvPjwvc3ZnPg==",
+      "name": "AutoTyping",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/typewriter.svg",
+      "shortDescription": "Animate the text to simulate it being written character by character (also called \"typewriter\" effect), with a customizable time between each character. Useful for dialogue scenes or visual novels.",
+      "version": "1.0",
+      "tags": [
+        "text",
+        "bbtext",
+        "dialogue",
+        "visual novel",
+        "autotyping"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Animate the text to simulate it being written character by character (also called \"typewriter\" effect), with a customizable time between each character. Add the behavior to the object, and it will get animated when the text is changed. You can also pause/resume it.",
+          "fullName": "Auto typing text",
+          "name": "Text_AutoTyping",
+          "objectType": "TextObject::Text",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_txt_buffer",
+                        "=",
+                        "Object.String()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        "<",
+                        "StrLength(Object.VariableString(_txt_buffer))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "SubStr(Object.VariableString(_txt_buffer), 0, 1 + Object.Variable(_write_index))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Autotyping Write Timer\"",
+                            "Object.Behavior::PropertyInterval()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Autotyping Write Timer\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "_write_index",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        ">=",
+                        "StrLength(Object.VariableString(_txt_buffer))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Object",
+                            "!=",
+                            "Object.VariableString(_txt_buffer)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "_write_index",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "_txt_buffer",
+                            "=",
+                            "Object.String()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Autotyping Write Timer\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Execute actions when the auto typing text ends.",
+              "fullName": "Auto typing finished",
+              "functionType": "Condition",
+              "name": "TypingFinished",
+              "private": false,
+              "sentence": "When _PARAM0_ finished auto typing",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        ">=",
+                        "StrLength(Object.VariableString(_txt_buffer))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pause animation auto typing.",
+              "fullName": "Pause auto typing",
+              "functionType": "Action",
+              "name": "Pause",
+              "private": false,
+              "sentence": "Pause auto typing of _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Resume auto typing after pause.",
+              "fullName": "Resume after pause",
+              "functionType": "Action",
+              "name": "Resume",
+              "private": false,
+              "sentence": "Resume auto typing of _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Detect if the auto typing is on pause.",
+              "fullName": "Typing on pause",
+              "functionType": "Condition",
+              "name": "TypingPause",
+              "private": false,
+              "sentence": "_PARAM0_ is on pause",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimerPaused"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the time between characters being typed. ",
+              "fullName": "Change the interval time",
+              "functionType": "Action",
+              "name": "ChangeInterval",
+              "private": false,
+              "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AutoTyping::Text_AutoTyping::SetPropertyInterval"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"interval\")"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::Text_AutoTyping",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Interval tme",
+                  "longDescription": "",
+                  "name": "interval",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.05",
+              "type": "Number",
+              "label": "Interval between characters in seconds.",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Interval"
+            }
+          ]
+        },
+        {
+          "description": "Animate the text to simulate it being written character by character (also called \"typewriter\" effect), with a customizable time between each character. Add the behavior to the object, and it will get animated when the text is changed. You can also pause/resume it.",
+          "fullName": "Auto typing text",
+          "name": "BBText_AutoTyping",
+          "objectType": "BBText::BBText",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_txt_buffer",
+                        "=",
+                        "Object.GetBBText()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        "<",
+                        "StrLength(Object.VariableString(_txt_buffer))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "SubStr(Object.VariableString(_txt_buffer), 0, Object.Variable(_write_index) + 1)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Autotyping Write Timer\"",
+                            "Object.Behavior::PropertyInterval()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Autotyping Write Timer\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "_write_index",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        ">=",
+                        "StrLength(Object.VariableString(_txt_buffer))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BBText::IsBBText"
+                          },
+                          "parameters": [
+                            "Object",
+                            "!=",
+                            "Object.VariableString(_txt_buffer)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "_write_index",
+                            "=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "_txt_buffer",
+                            "=",
+                            "Object.GetBBText()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Autotyping Write Timer\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "BBText::BBText",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Execute actions when the auto typing text ends.",
+              "fullName": "Auto typing finished",
+              "functionType": "Condition",
+              "name": "TypingFinished",
+              "private": false,
+              "sentence": "When _PARAM0_ finished auto typing",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "_write_index",
+                        ">=",
+                        "StrLength(Object.VariableString(_txt_buffer))"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "BBText::BBText",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pause animation auto typing.",
+              "fullName": "Pause auto typing",
+              "functionType": "Action",
+              "name": "Pause",
+              "private": false,
+              "sentence": "Pause auto typing of _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "BBText::BBText",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Resume auto typing after pause.",
+              "fullName": "Resume after pause",
+              "functionType": "Action",
+              "name": "Resume",
+              "private": false,
+              "sentence": "Resume auto typing of _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "BBText::BBText",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Detect if the auto typing is on pause.",
+              "fullName": "Typing on pause",
+              "functionType": "Condition",
+              "name": "TypingPause",
+              "private": false,
+              "sentence": "_PARAM0_ is on pause",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimerPaused"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Autotyping Write Timer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "BBText::BBText",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the time between characters being typed. ",
+              "fullName": "Change the interval time",
+              "functionType": "Action",
+              "name": "ChangeInterval",
+              "private": false,
+              "sentence": "Set the interval between characters of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AutoTyping::BBText_AutoTyping::SetPropertyInterval"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"interval\")"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "BBText::BBText",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "AutoTyping::BBText_AutoTyping",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Interval tme",
+                  "longDescription": "",
+                  "name": "interval",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0.05",
+              "type": "Number",
+              "label": "Interval between characters in seconds.",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Interval"
+            }
+          ]
+        }
+      ]
+    },
     {
       "author": "@4ian",
       "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
