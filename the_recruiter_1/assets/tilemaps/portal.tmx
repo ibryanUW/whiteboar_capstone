@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="open_tileset" tilewidth="16" tileheight="16" tilecount="6840" columns="90">
+  <image source="../openpixels-master_0/openpixels-master/open_tileset.png" trans="000000" width="1440" height="1216"/>
+ </tileset>
+ <tileset firstgid="6841" name="open_tileset_2x" tilewidth="16" tileheight="16" tilecount="27360" columns="180">
+  <image source="../openpixels-master_0/openpixels-master/open_tileset_2x.png" trans="000000" width="2880" height="2432"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,23429,23430,23431,23432,23433,23434,23435,23436,0,0,0,0,
+0,0,0,0,23609,23610,23611,23612,23613,23614,23615,23616,0,0,0,0,
+0,0,0,0,23789,23790,23791,23792,23793,23794,23795,23796,0,0,0,0,
+0,0,0,0,23969,23970,23971,23972,23973,23974,23975,23976,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
