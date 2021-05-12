@@ -1246,7 +1246,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.2400000000000007
+        "zoomFactor": 1.1000000000000005
       },
       "objectsGroups": [],
       "variables": [],
@@ -1260,8 +1260,8 @@
           "name": "IntroHelpDesk",
           "persistentUuid": "8702718a-4d24-4179-a868-3bdfcaf9fbc9",
           "width": 612,
-          "x": 1960,
-          "y": 2120,
+          "x": 65,
+          "y": 32,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1276,8 +1276,8 @@
           "name": "info_text_bg",
           "persistentUuid": "33999daa-de31-42a8-9268-d077a28a63f8",
           "width": 762,
-          "x": 1893,
-          "y": 2086,
+          "x": 0,
+          "y": 0,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1292,8 +1292,8 @@
           "name": "action_needed_text",
           "persistentUuid": "3426b0e3-ce29-43f1-90ba-b209629504b0",
           "width": 420,
-          "x": 2060,
-          "y": 2427,
+          "x": 156,
+          "y": 336,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1405,7 +1405,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(\"\",0), IntroHelpDesk.X(), 0.07)",
+                "420",
                 "",
                 ""
               ],
@@ -1414,12 +1414,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SetCameraX"
+                "value": "SetCameraY"
               },
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(\"\",0), IntroHelpDesk.Y(), 0.07)",
+                "200",
                 "",
                 ""
               ],
@@ -1433,6 +1433,30 @@
               "parameters": [
                 "",
                 "4",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CenterWindow"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "intro_cutscene",
+                "",
                 "",
                 ""
               ],
@@ -7716,9 +7740,9 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -7853,6 +7877,8 @@
               "HasJustFired": false
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 100,
               "canGrabPlatforms": false,
               "deceleration": 100,
@@ -7863,10 +7889,8 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
