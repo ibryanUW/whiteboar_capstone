@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="open_tileset_2x" tilewidth="16" tileheight="16" tilecount="27360" columns="180">
+  <image source="../openpixels-master_0/openpixels-master/open_tileset_2x.png" trans="000000" width="2880" height="2432"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="8" height="6">
+  <data encoding="csv">
+6493,6494,6495,6496,6497,6498,6499,6500,
+6673,6674,6675,6676,6677,6678,6679,6680,
+6853,6854,6855,6856,6857,6858,6859,6860,
+7033,7034,7035,7036,7037,7038,7039,7040,
+7213,7214,7215,7216,7217,7218,7219,7220,
+7393,7394,7395,7396,7397,7398,7399,7400
+</data>
+ </layer>
+</map>

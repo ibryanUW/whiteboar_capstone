@@ -29,65 +29,6 @@
       "showGDevelopSplash": false
     },
     "extensionProperties": [],
-    "extensions": [
-      {
-        "name": "BuiltinObject"
-      },
-      {
-        "name": "BuiltinAudio"
-      },
-      {
-        "name": "BuiltinVariables"
-      },
-      {
-        "name": "BuiltinTime"
-      },
-      {
-        "name": "BuiltinMouse"
-      },
-      {
-        "name": "BuiltinKeyboard"
-      },
-      {
-        "name": "BuiltinJoystick"
-      },
-      {
-        "name": "BuiltinCamera"
-      },
-      {
-        "name": "BuiltinWindow"
-      },
-      {
-        "name": "BuiltinFile"
-      },
-      {
-        "name": "BuiltinNetwork"
-      },
-      {
-        "name": "BuiltinScene"
-      },
-      {
-        "name": "BuiltinAdvanced"
-      },
-      {
-        "name": "Sprite"
-      },
-      {
-        "name": "BuiltinCommonInstructions"
-      },
-      {
-        "name": "BuiltinCommonConversions"
-      },
-      {
-        "name": "BuiltinStringInstructions"
-      },
-      {
-        "name": "BuiltinMathematicalTools"
-      },
-      {
-        "name": "BuiltinExternalLayouts"
-      }
-    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -550,15 +491,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "bullet-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "bullet-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "assets/sound_effects/main_player_throw_resume_sound_effect.mp3",
         "kind": "audio",
         "metadata": "",
@@ -1005,13 +937,577 @@
         "name": "newGame-2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/Looking Right stationary Mouth Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\Looking Right stationary Mouth Open.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/stationary, left, mouth closed 1.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\stationary, left, mouth closed 1.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/stationary, left, mouth open 1.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\stationary, left, mouth open 1.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/stationary, right, mouth closed.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\stationary, right, mouth closed.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/stationary, right, mouth open.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\stationary, right, mouth open.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/walk 1, right, mouth closed.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\walk 1, right, mouth closed.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/walk 1, right, mouth open.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\walk 1, right, mouth open.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/walk 2, right, mouth closed.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\walk 2, right, mouth closed.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recruiter Art/walk 2, right, mouth open.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recruiter Art\\walk 2, right, mouth open.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/boss_map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\boss_map.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/portal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\portal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\door.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_idle_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_idle_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/robot_idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\robot_idle-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/robot_idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\robot_idle-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/robot_idle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\robot_idle-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/robot_idle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\robot_idle-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/game_sprites/robot/amazon_robot_walk_0-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\game_sprites\\robot\\amazon_robot_walk_0-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/speech_bubble_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\speech_bubble_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stamina-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stamina-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stamina_80_percent-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stamina_80_percent-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stamina_50_percent-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stamina_50_percent-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stamina_20_percent-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stamina_20_percent-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/speech_bubble_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\speech_bubble_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogue/speech_bubble_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\dialogue\\speech_bubble_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/amazon_retiled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\amazon_retiled.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/amazon_retiled_wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\amazon_retiled_wood.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bullet-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bullet-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "enemy_bullet-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "enemy_bullet-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/fuckingworkjesuschrist.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\fuckingworkjesuschrist.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tilemaps/boering_wood_floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tilemaps\\boering_wood_floor.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "text_selection",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1255,7 +1751,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.1000000000000005
+        "zoomFactor": 1.2700000000000007
       },
       "objectsGroups": [],
       "variables": [],
@@ -1495,29 +1991,40 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"career_fair_intro\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ActivateBehavior"
+                "value": "AutoTyping::BBText_AutoTyping::ChangeInterval"
               },
               "parameters": [
                 "IntroHelpDesk",
                 "BBText_AutoTyping",
-                "0.001"
+                "0.1",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"career_fair_intro\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -1613,7 +2120,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 1.030000000000002
+        "zoomFactor": 0.8500000000000031
       },
       "objectsGroups": [],
       "variables": [],
@@ -1655,7 +2162,7 @@
           "customSize": true,
           "height": 1600,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "bigcrosoft_1",
           "persistentUuid": "e96cbdfb-21ea-4b73-9455-93cbb6938e8a",
           "width": 5000,
@@ -1675,8 +2182,8 @@
           "name": "enemy_generic",
           "persistentUuid": "8d517a3b-28ab-4198-9db0-8d36ea6f93e6",
           "width": 32,
-          "x": 377,
-          "y": 363,
+          "x": 307,
+          "y": 378,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2165,30 +2672,30 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 3504,
+          "height": 3604,
           "layer": "",
           "locked": false,
           "name": "platformCollider",
           "persistentUuid": "425fa027-2ec5-4761-baa2-9ad605cc28ba",
-          "width": 25,
-          "x": 0,
-          "y": 0,
+          "width": 58,
+          "x": -32,
+          "y": -31,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 90,
+          "angle": 0,
           "customSize": true,
-          "height": 5000,
+          "height": 3500,
           "layer": "",
           "locked": false,
           "name": "platformCollider",
           "persistentUuid": "15ecc93a-5264-46de-a54b-adda835166b5",
           "width": 25,
-          "x": 2498,
-          "y": -2487,
+          "x": 4975,
+          "y": 4,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2619,8 +3126,8 @@
           "name": "platformCollider",
           "persistentUuid": "64239ba0-9d0b-4974-a5ea-24207d7d1e74",
           "width": 67,
-          "x": 345,
-          "y": 399,
+          "x": 263,
+          "y": 419,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2699,8 +3206,8 @@
           "name": "enemy_generic",
           "persistentUuid": "b8458dc2-f03e-4556-ba86-df4982ff16d2",
           "width": 32,
-          "x": 1295,
-          "y": 346,
+          "x": 1001,
+          "y": 361,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2715,8 +3222,8 @@
           "name": "GoLeft",
           "persistentUuid": "55249c34-61c5-49ab-a6a1-713441836104",
           "width": 32,
-          "x": 261,
-          "y": 390,
+          "x": 199,
+          "y": 377,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2731,8 +3238,8 @@
           "name": "GoRight",
           "persistentUuid": "dd029531-1470-40bf-b88a-f774d9e6a65d",
           "width": 32,
-          "x": 488,
-          "y": 393,
+          "x": 505,
+          "y": 369,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3703,7 +4210,7 @@
           "customSize": true,
           "height": 880,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "amazon",
           "persistentUuid": "eb10cfb9-3279-404c-a619-afa0294d32c9",
           "width": 5000,
@@ -5383,7 +5890,7 @@
           "customSize": true,
           "height": 1024,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "boering",
           "persistentUuid": "028fed2e-2bec-456e-8d6b-788bd982ac7d",
           "width": 5000,
@@ -7003,8 +7510,8 @@
           "name": "platformCollider",
           "persistentUuid": "0ad36b06-d73b-4015-859f-1a076da985cf",
           "width": 64,
-          "x": 4309,
-          "y": 3413,
+          "x": 4310,
+          "y": 3407,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7067,8 +7574,344 @@
           "name": "platformCollider",
           "persistentUuid": "6aaa814c-2fd7-45fe-8449-28f29836cbe1",
           "width": 64,
-          "x": 4734,
-          "y": 3157,
+          "x": 4738,
+          "y": 3152,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "locked": false,
+          "name": "portal_to_boss",
+          "persistentUuid": "04fec27c-04e1-4bc9-990e-4e987baa3b5a",
+          "width": 150,
+          "x": 4855,
+          "y": 3407,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 4900,
+          "layer": "",
+          "locked": false,
+          "name": "platformCollider",
+          "persistentUuid": "f9b6a5fc-b1f6-445a-9852-3c9a0dd61b78",
+          "width": 25,
+          "x": 2430,
+          "y": 1060,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 5044,
+          "layer": "",
+          "locked": false,
+          "name": "platformCollider",
+          "persistentUuid": "ce2f26db-0013-42d0-9dfd-2e49936e6c30",
+          "width": 25,
+          "x": 2478,
+          "y": -2518,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "d62de0cb-5f2e-4c5f-84a4-e1e2caa4a8a3",
+          "width": 70,
+          "x": 427,
+          "y": 1632,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "6a00b309-7520-44f8-97c7-144d95d25b7c",
+          "width": 70,
+          "x": 1028,
+          "y": 2061,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "36efd5bc-29b0-4ee4-92fc-350fdde148d4",
+          "width": 70,
+          "x": 1723,
+          "y": 2092,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "32154cad-1b35-4e3a-bfd6-0021acd0c86e",
+          "width": 70,
+          "x": 1197.594482421875,
+          "y": 2740.750244140625,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "0f4c728e-2d5a-47ce-805f-15254eda25f5",
+          "width": 70,
+          "x": 781.404052734375,
+          "y": 3203.607421875,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "a0bcc329-2c70-42d9-8b66-8b95ed052b5d",
+          "width": 70,
+          "x": 1388.0706787109375,
+          "y": 3335.035888671875,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "d8ada47f-ccec-4862-95db-04ee2f34a706",
+          "width": 70,
+          "x": 2671.88037109375,
+          "y": 2792.1787109375,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "7a25e7ff-2fc4-4a82-afb3-c6e8f09e57b4",
+          "width": 70,
+          "x": 3926,
+          "y": 2771,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "264f7db0-8ccf-45ea-b32c-fc1fb1bb348f",
+          "width": 70,
+          "x": 2978.016845703125,
+          "y": 1928.538818359375,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "amazon_robot",
+          "persistentUuid": "48504150-f6ea-4061-bddb-435fa2e6c715",
+          "width": 70,
+          "x": 3822.461181640625,
+          "y": 1745.82275390625,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 236,
+          "layer": "GUI",
+          "locked": false,
+          "name": "stamina",
+          "persistentUuid": "8990ab77-3a16-44d2-bc85-0d622d19cefb",
+          "width": 348,
+          "x": 30,
+          "y": -34,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "platformCollider",
+          "persistentUuid": "13d88842-ad92-4cb2-a1eb-1b1cacc46cb2",
+          "width": 67,
+          "x": 967,
+          "y": 399,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "dffa47b4-295a-4ba0-9b5a-4eff6cca0011",
+          "width": 32,
+          "x": 858,
+          "y": 368,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "11a9e6b1-d1f4-4ead-ad04-f892436a9eac",
+          "width": 32,
+          "x": 1099,
+          "y": 370,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "26343c7c-3dab-43e3-9e3b-33f153fca255",
+          "width": 32,
+          "x": 513,
+          "y": 220,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "enemy_generic",
+          "persistentUuid": "0b31bc73-b30d-4e92-bdea-698a1d40a8d3",
+          "width": 32,
+          "x": 645,
+          "y": 215,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "2da78528-121d-4673-abc9-c29fdf98c71c",
+          "width": 32,
+          "x": 751,
+          "y": 217,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "platformCollider",
+          "persistentUuid": "ad9055de-af55-4833-bed1-cd6d861aede7",
+          "width": 67,
+          "x": 608,
+          "y": 255,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7081,7 +7924,13 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "stamina",
+              "type": "string",
+              "value": "100"
+            }
+          ],
           "behaviors": [
             {
               "name": "FireBullet",
@@ -7810,7 +8659,38 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "init_spawn_coord_X",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "init_spawn_coord_Y",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "curr_coord_X",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "curr_coord_Y",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "init_minus_curr_X",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "init_minus_curr_Y",
+              "type": "string",
+              "value": "0"
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -7822,7 +8702,7 @@
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "bullet-1-3.png",
                       "points": [],
                       "originPoint": {
@@ -7836,7 +8716,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22.97309112548828,
+                            "y": 23.87586784362793
+                          },
+                          {
+                            "x": 43.25086975097656,
+                            "y": 23.45920181274414
+                          },
+                          {
+                            "x": 43.11198043823242,
+                            "y": 41.37586975097656
+                          },
+                          {
+                            "x": 23.38975715637207,
+                            "y": 41.23698043823242
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7931,7 +8830,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets\\game_sprites\\pixel_art_booth_person_v4_scaled_up.png",
                       "points": [],
                       "originPoint": {
@@ -7945,7 +8844,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 262.5,
+                            "y": 196.25
+                          },
+                          {
+                            "x": 747.5,
+                            "y": 186.25
+                          },
+                          {
+                            "x": 670,
+                            "y": 821.25
+                          },
+                          {
+                            "x": 332.5,
+                            "y": 816.25
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7958,7 +8876,13 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "bullet_delay_time",
+              "type": "string",
+              "value": "1"
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -7966,12 +8890,13 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"enemy_bullet\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":4,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAADCUlEQVR4Xu2b4ZaEIAiF8/0fuj056SiigJLiTnP2XzMV3I8LWuuO9/PTGXA7Rn8ex3ndt/N/72ckA9slMIgfgn4h8NXgC6KnKLYCIAZ63vG6z+3/KgRZMVw56cjHNgCk4jvnjnMCBNBtpFb7JJiwGGJOhBBsAQAU/xIiAuAt4Bkn8NcNoInVd485U+GE8N4E+TAPQCvYp53AIgCU+NKcmAYAs7m0+rNgH3ACawBQ4sdBUNAiMwBGex7HJbl9kap87Fq+LQjsj7pfSwBwxZdCUALQ2/OobN4VygGgOvAl1yiqP72+EgRWAJCKj0pRyYk5ALCBrxj6mLCNLhEtADAqPjUTmAGgWNNyq90vApJloaITrAaAI37TCbFCAU5gAgDK8kOQrWCvY6hTDLSDlQBoiw+dILRiOwAkswcUmqI8iJ8Cr7FPsAqAHvGpHGVm4L57FHYA+JQvauccIKoO8B2LxdvGKwCgxK8JTQFQ2yk0AYDXPjzQAKuQ1P6pYRA6QeYCHfsEswHgiE/lAF0GNorADAAYBGyqwcDYTJJgJpgJACX+h9982KXyA20fWxWZAgBCQNk6dpyVFCYEswDgis+pfjT+RrzmAKi1Aywwlti1PQMGBDMA0BRfsgEUu0I2OY88/WJuznB2ArntYAiAeyZo3c80AO65Z8TipZVvHgCsHVxDXRroEAAbOMDT8d0zwbd0h4hXdoBwOo5FUpcuEskQPwLY+2wkWWtT90c9+AqrGfYSkBnfFgC0lohUYrHJWfK0cKggBAD0xthr+2nezD4OhuJKnKBqnYLKmOkAam4njK9wAE5FrfwOFwKNylgBQOoEV2UWG1lJ8nvbGtTP9BtBGGwcCLSSM7MFFKsxT0N82zseTndGNV6M3Q6AVr/UqvzMkicMgVLQszg7bL86A6y0d+m1OU4gGfiqIiwCAIKuXfkh3i0dgDU0DVZGJoCUzvv73E2v1umroCvEt90QyLZKpeR06q7+swICxfi2dgDUCRSTo67kwAmzV+YU/x3uXwAA7VrDege02uqnfw6kbT/DjSa0AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAABj0lEQVR4Xu2ZwQ4DIQhE3f//6DYebAxVRF0TB6a3btWF4Qlon8RPaAWe0N7T+UQAgkNAAAhAcAWCu88MMAfAJyVfZZMA2ADIgc8fd3q5c8gWT44qChAAGwsl9bME2PT6G+VFOC9+/ALUygB1vVt1uN4xLmvn4ka4bloPgPxcBn+mEarnrkJ0k1gjH2a0uckvf13tVeoCGLPSBI52A4Db2ya2suOKltuG7C7QM1p2vSXFtep5xHq/Ux53Y/bqfA2A+qioARGxyZM1v/UdIiNYjIRtcF7dKuPFIEujBYDiutVB67ixpLgjYDTQAJC1XYajnuv2pkxhsHXUhQn87lVwrwny3A9ojR/sqWCmBOAm5DOWa5ddMJlgdBPYO/bVz2GcfYEDzVfI20/tvwAZfHkXEO10IAPcOibnZ1C6sATY00ILAPhGmADYAZAjtcYPpiwSgDUARgEe/b721gOzCIBd1FEJqC/MYI7DBMAGwExjNzPW9vaDowjAQXERliYACFE6aCMBOCguwtIEACFKB238AlohUyFkUjefAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\HumanOutput\\\\other_files\\\\git_repos\\\\whiteboar_capstone\\\\the_recruiter_1\\\\enemy_bullet-1-4.png\",\"C:\\\\Users\\\\HumanOutput\\\\other_files\\\\git_repos\\\\whiteboar_capstone\\\\the_recruiter_1\\\\enemy_bullet-2-1.png\",\"C:\\\\Users\\\\HumanOutput\\\\other_files\\\\git_repos\\\\whiteboar_capstone\\\\the_recruiter_1\\\\enemy_bullet-3-1.png\",\"C:\\\\Users\\\\HumanOutput\\\\other_files\\\\git_repos\\\\whiteboar_capstone\\\\the_recruiter_1\\\\enemy_bullet-4-1.png\"],\"name\":\"enemy_bullet\",\"singleFrame\":false}}",
+                  "timeBetweenFrames": 0.25,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "enemy_bullet-1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "enemy_bullet-1-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7984,7 +8909,134 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 9.050000190734863
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 8.25
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 23.450000762939453
+                          },
+                          {
+                            "x": 4.400000095367432,
+                            "y": 23.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "enemy_bullet-2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 9.050000190734863
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 8.25
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 23.450000762939453
+                          },
+                          {
+                            "x": 4.400000095367432,
+                            "y": 23.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "enemy_bullet-3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 9.050000190734863
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 8.25
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 23.450000762939453
+                          },
+                          {
+                            "x": 4.400000095367432,
+                            "y": 23.049999237060547
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "enemy_bullet-4-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 9.050000190734863
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 8.25
+                          },
+                          {
+                            "x": 26.799999237060547,
+                            "y": 23.450000762939453
+                          },
+                          {
+                            "x": 4.400000095367432,
+                            "y": 23.049999237060547
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -8010,7 +9062,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\tilemaps\\bigcrosoft.png",
+                      "image": "assets\\tilemaps\\fuckingworkjesuschrist.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8127,7 +9179,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\tilemaps\\amazon.png",
+                      "image": "assets\\tilemaps\\amazon_retiled_wood.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8166,7 +9218,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\tilemaps\\boering.png",
+                      "image": "assets\\tilemaps\\boering_wood_floor.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8186,6 +9238,602 @@
               ]
             }
           ]
+        },
+        {
+          "name": "portal_to_boss",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\tilemaps\\portal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 103.52941131591797,
+                        "y": 128.23529052734375
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 93.125,
+                            "y": 112.1875
+                          },
+                          {
+                            "x": 171.875,
+                            "y": 111.875
+                          },
+                          {
+                            "x": 180.625,
+                            "y": 153.4375
+                          },
+                          {
+                            "x": 79.0625,
+                            "y": 154.375
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "amazon_robot",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "robot_idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16670000553131104,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_idle_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "amazon_robot_walk_0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\game_sprites\\robot\\amazon_robot_walk_0-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_box_1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\dialogue\\speech_bubble_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "text_1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Hey! You there! \nCan I see your resume?",
+          "font": "fonts\\pixel-intv-font\\PixelIntv-OPxd.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "stamina",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "stamina_full",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stamina-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "stamina_80_percent",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stamina_80_percent-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "stamina_50_percent",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stamina_50_percent-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "stamina_20_percent",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "stamina_20_percent-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_box_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\dialogue\\speech_bubble_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "text_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Expand your network! Gain industry experience!",
+          "font": "fonts\\pixel-intv-font\\PixelIntv-OPxd.ttf",
+          "characterSize": 10,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "text_box_3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\dialogue\\speech_bubble_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "text_3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Internships! Training! \nOrganic kombucha served hourly!\nShow us your portfolio! \nGet free feedback!\nYou want to work for us!",
+          "font": "fonts\\pixel-intv-font\\PixelIntv-OPxd.ttf",
+          "characterSize": 10,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -8249,6 +9897,43 @@
                 "GoLeft"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "amazon_robot",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "main_player",
+                "stamina",
+                "=",
+                "10000000"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "stamina",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -8274,6 +9959,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "movement",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -8569,7 +10269,7 @@
                 "bullet",
                 "scope.X()",
                 "scope.Y()",
-                "500",
+                "150",
                 ""
               ],
               "subInstructions": []
@@ -8585,6 +10285,32 @@
                 "no",
                 "50",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "bullet",
+                "init_spawn_coord_X",
+                "=",
+                "bullet.X()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "bullet",
+                "init_spawn_coord_Y",
+                "=",
+                "bullet.Y()"
               ],
               "subInstructions": []
             }
@@ -8661,13 +10387,597 @@
                 "enemy_bullet",
                 "main_player.X()",
                 "main_player.Y()",
-                "1000",
+                "200",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "text_selection",
+                "=",
+                "TimeDelta()"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "text_box_selection",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "text_selection",
+                    "<=",
+                    "0.01665"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_box_1",
+                    "enemy_generic.X()",
+                    "enemy_generic.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "text_box_1",
+                    "=",
+                    "75"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "text_box_1",
+                    "=",
+                    "200"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "text_box_1",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "text_1",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_1",
+                    "text_box_1.X()+15",
+                    "text_box_1.Y()+25",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "text_selection",
+                    "<=",
+                    "0.01669"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "text_selection",
+                    ">",
+                    "0.01665"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_box_2",
+                    "enemy_generic.X()",
+                    "enemy_generic.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "text_box_2",
+                    "=",
+                    "50"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "text_box_2",
+                    "=",
+                    "350"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "text_box_2",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "text_2",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_2",
+                    "text_box_2.X()+15",
+                    "text_box_2.Y()+15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "text_selection",
+                    ">=",
+                    "0.016670"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_box_3",
+                    "enemy_generic.X()",
+                    "enemy_generic.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "text_box_3",
+                    "=",
+                    "125"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "text_box_3",
+                    "=",
+                    "240"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "text_box_3",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "text_3",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "text_3",
+                    "text_box_3.X()+20",
+                    "text_box_3.Y()+25",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "enemy_bullet",
+                    "enemy_generic",
+                    "150",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "enemy_bullet",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "enemy_generic",
+                    "main_player",
+                    "300",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_box_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "text_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enemy hit with resume",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -8700,9 +11010,35 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "bullet",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player hit with business card",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -8728,28 +11064,196 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Delete"
+                "value": "ModVarObjet"
               },
               "parameters": [
                 "main_player",
-                ""
+                "stamina",
+                "-",
+                "5"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Delete"
               },
               "parameters": [
-                "",
-                "\"game_over_menu\"",
-                "yes"
+                "enemy_bullet",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "portal_to_boss",
+                    "stamina",
+                    "<=",
+                    "80"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "stamina",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "main_player",
+                    "stamina",
+                    "<=",
+                    "50"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "stamina",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "main_player",
+                    "stamina",
+                    "<=",
+                    "20"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "stamina",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "main_player",
+                    "stamina",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "main_player",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"game_over_menu\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "enemy walking functions",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -8778,6 +11282,18 @@
               },
               "parameters": [
                 "enemy_generic",
+                "PlatformerObject",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "amazon_robot",
                 "PlatformerObject",
                 "\"Left\""
               ],
@@ -8813,6 +11329,18 @@
               },
               "parameters": [
                 "enemy_generic",
+                "PlatformerObject",
+                "\"Right\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "amazon_robot",
                 "PlatformerObject",
                 "\"Right\""
               ],
@@ -8894,6 +11422,114 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "portal to boss",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "main_player",
+                "portal_to_boss",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"head_hunter\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "delete bullet once far away from main player",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "bullet",
+                "main_player",
+                "210",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "bullet",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -8917,6 +11553,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6024528,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -9470,6 +12117,1380 @@
         }
       ],
       "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "head_95hunter",
+      "name": "head_hunter",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": false,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.43000000000000016
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 242,
+          "layer": "",
+          "locked": false,
+          "name": "head_hunter",
+          "persistentUuid": "ac862243-5ebc-43a6-9561-241b7e1250d1",
+          "width": 239,
+          "x": 1300,
+          "y": 363,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 3498,
+          "layer": "",
+          "locked": false,
+          "name": "bossMap",
+          "persistentUuid": "14580d9a-03da-4f39-9f5a-6c31362eecd1",
+          "width": 5000,
+          "x": -4,
+          "y": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 145,
+          "layer": "",
+          "locked": false,
+          "name": "door",
+          "persistentUuid": "1df97c62-bdf4-4439-882b-1c86040d221f",
+          "width": 225,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "main_player",
+          "persistentUuid": "44f9d972-893a-4e15-95cb-37cd9cfd5c1d",
+          "width": 0,
+          "x": 100,
+          "y": 207,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "head_hunter",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "project_looking_right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\stationary, right, mouth closed.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\Looking Right stationary Mouth Open.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\stationary, right, mouth open.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "project_looking_left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\stationary, left, mouth closed 1.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\stationary, left, mouth open 1.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "walking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.6000000238418579,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\walk 1, right, mouth closed.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\walk 2, right, mouth closed.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\walk 1, right, mouth open.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Recruiter Art\\walk 2, right, mouth open.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bossMap",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\tilemaps\\boss_map.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\tilemaps\\door.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "main_player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "FireBullet",
+              "type": "FireBullet::FireBullet",
+              "FireCooldown": 0.1,
+              "HasJustFired": false
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 0,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle_anim",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\idle_0.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\idle_1.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\idle_2.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\idle_3.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "attack_anim",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\attack_0.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\attack_1.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\attack_2.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "running_anim",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\run_0.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\run_1.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\run_2.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\run_3.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\run_4.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GentlemanSpy\\2x\\run_5.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 14,
+                          "y": 51
+                        },
+                        {
+                          "name": "Point2",
+                          "x": 53,
+                          "y": 51.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 18
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 53,
+                        "y": 19.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 43,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 46,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 21,
+                            "y": 48.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "8",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "main_player",
+                "",
+                "-200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "main_player",
+                "-200",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "main_player",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "main_player",
+                "",
+                "200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "main_player",
+                "200",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "main_player",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Arret"
+              },
+              "parameters": [
+                "main_player"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "main_player",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arret"
+              },
+              "parameters": [
+                "main_player"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "main_player",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(\"\",0), main_player.X(), 0.07)",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(\"\",0), main_player.Y(), 0.07)",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 9795536,
+          "ambientLightColorG": 6228888,
+          "ambientLightColorR": 9417264,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
